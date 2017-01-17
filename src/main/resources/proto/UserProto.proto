@@ -1,0 +1,12 @@
+syntax = "proto2";
+
+package com.lxn.netty.model.protoModel;
+option java_outer_classname = "UserProto";
+
+message User{
+    required int64 userId = 1;
+    required string username = 2;
+    required string name = 3;
+    required string password = 4;
+    optional string text = 5;
+}

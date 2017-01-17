@@ -1,0 +1,9 @@
+syntax = "proto2";
+
+package com.lxn.netty.model.protoModel;
+option java_outer_classname = "ResponseUserProto";
+
+message ResponseUser{
+    required int64 userId = 1;
+    optional string helloText = 2;
+}
